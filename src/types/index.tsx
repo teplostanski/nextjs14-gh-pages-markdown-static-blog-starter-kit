@@ -10,3 +10,8 @@ export interface ChildrenProps {
 export interface ProjectPageProps {
   params: { slug: Slug }
 }
+
+export interface PrefixedImageProps {
+  src: string
+  alt: string
+}
