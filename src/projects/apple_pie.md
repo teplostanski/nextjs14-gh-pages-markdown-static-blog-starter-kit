@@ -8,7 +8,7 @@ img: '/next.svg'
 
 # Classic Apple Pie
 
-![img](/next.svg)
+![img](/media/next.svg)
 
 ## Ingredients
 

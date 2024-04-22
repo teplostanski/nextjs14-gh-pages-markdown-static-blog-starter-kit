@@ -5,6 +5,36 @@ import fs from 'fs'
 import matter from 'gray-matter'
 import { ChildrenProps, ProjectPageProps, Slug } from '@/types'
 
+import Image from 'next/image'
+import getConfig from 'next/config'
+
+const { publicRuntimeConfig } = getConfig()
+
+interface CustomImageProps {
+  src: string
+  alt: string
+}
+
+console.log('Base Path:', publicRuntimeConfig.basePath)
+
+const CustomImage = ({ src, alt }: CustomImageProps) => {
+  const { publicRuntimeConfig } = getConfig()
+  console.log('Runtime Config:', publicRuntimeConfig) // Добавьте этот лог для проверки
+
+  const basePath = publicRuntimeConfig.basePath || '' // Установите пустую строку по умолчанию
+  const imagePath = `${basePath}${src.startsWith('/') ? '' : '/'}${src}`
+
+  return (
+    <Image
+      style={{ border: '1px solid red' }}
+      src={imagePath}
+      alt={alt}
+      width={700}
+      height={100}
+    />
+  )
+}
+
 function getPostContent(slug: Slug) {
   const folder = 'src/projects/'
   const file = folder + `${slug}.md`
@@ -47,6 +77,9 @@ const mdOptions = {
       //props: {
       //  className: "foo",
       //},
+    },
+    img: {
+      component: CustomImage,
     },
   },
 }
