@@ -1,9 +1,9 @@
 ---
-title: "Chocolate Chip Cookies"
-prep_time: "15 minutes"
-cook_time: "10 minutes"
-description: "Classic, chewy cookies loaded with semi-sweet chocolate chips, perfect for dunking in milk."
-
+title: 'Chocolate Chip Cookies'
+prep_time: '15 minutes'
+cook_time: '10 minutes'
+description: 'Classic, chewy cookies loaded with semi-sweet chocolate chips, perfect for dunking in milk.'
+img: '/next.svg'
 ---
 
 # Chocolate Chip Cookies

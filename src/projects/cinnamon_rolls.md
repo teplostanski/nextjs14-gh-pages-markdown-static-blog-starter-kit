@@ -1,8 +1,9 @@
 ---
-title: "Cinnamon Rolls"
-prep_time: "30 minutes"
-cook_time: "25 minutes"
-description: "Soft and gooey rolls filled with a sweet cinnamon-sugar mixture, topped with a creamy icing."
+title: 'Cinnamon Rolls'
+prep_time: '30 minutes'
+cook_time: '25 minutes'
+description: 'Soft and gooey rolls filled with a sweet cinnamon-sugar mixture, topped with a creamy icing.'
+img: '/next.svg'
 ---
 
 # Cinnamon Rolls
@@ -10,6 +11,7 @@ description: "Soft and gooey rolls filled with a sweet cinnamon-sugar mixture, t
 ## Ingredients
 
 ### Dough
+
 - 1 cup (240ml) warm milk (about 110°F or 45°C)
 - 2 1/4 teaspoons active dry yeast
 - 1/2 cup (100g) granulated sugar
@@ -19,11 +21,13 @@ description: "Soft and gooey rolls filled with a sweet cinnamon-sugar mixture, t
 - 1 teaspoon salt
 
 ### Filling
+
 - 1 cup (200g) brown sugar, packed
 - 3 tablespoons ground cinnamon
 - 1/3 cup (75g) unsalted butter, softened
 
 ### Icing
+
 - 1 cup (120g) powdered sugar
 - 2 tablespoons milk
 - 1/2 teaspoon vanilla extract

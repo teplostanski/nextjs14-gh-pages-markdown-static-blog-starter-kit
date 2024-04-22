@@ -1,15 +1,19 @@
 ---
-title: "Apple Pie"
-prep_time: "90 minutes"
-cook_time: "60 minutes"
-description: "A traditional pie with a flaky crust and a sweet, spiced apple filling, perfect for any occasion."
+title: 'Apple Pie'
+prep_time: '90 minutes'
+cook_time: '60 minutes'
+description: 'A traditional pie with a flaky crust and a sweet, spiced apple filling, perfect for any occasion.'
+img: '/next.svg'
 ---
 
 # Classic Apple Pie
 
+![img](/next.svg)
+
 ## Ingredients
 
 ### Pie Crust
+
 - 2 1/2 cups (315g) all-purpose flour
 - 1 teaspoon salt
 - 1 teaspoon sugar
@@ -17,6 +21,7 @@ description: "A traditional pie with a flaky crust and a sweet, spiced apple fil
 - 1/4 to 1/2 cup (60-120ml) ice water
 
 ### Filling
+
 - 6 to 8 large apples, peeled, cored, and sliced (about 8 cups)
 - 3/4 cup (150g) granulated sugar
 - 2 tablespoons all-purpose flour
@@ -27,6 +32,7 @@ description: "A traditional pie with a flaky crust and a sweet, spiced apple fil
 - 1 tablespoon lemon juice
 
 ### Egg Wash
+
 - 1 large egg, beaten
 - 1 tablespoon water
 

@@ -1,9 +1,9 @@
 ---
-title: "Banana Bread"
-prep_time: "15 minutes"
-cook_time: "60 minutes"
-description: "Moist and flavorful bread made with ripe bananas, perfect for breakfast or a snack."
-
+title: 'Banana Bread'
+prep_time: '15 minutes'
+cook_time: '60 minutes'
+description: 'Moist and flavorful bread made with ripe bananas, perfect for breakfast or a snack.'
+img: '/next.svg'
 ---
 
 # Classic Banana Bread

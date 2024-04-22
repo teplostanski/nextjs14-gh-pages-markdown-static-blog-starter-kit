@@ -1,22 +1,34 @@
 {
-  "name": "static-recipe-blog",
-  "version": "0.1.0",
+  "name": "teplostanski-dev-ssg-md-blog",
+  "version": "4.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint --fix",
+    "prettier": "prettier src/**/*.{js,ts,tsx,jsx,scss,css} --write --no-error-on-unmatched-pattern",
+    "prepare": "husky"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
-    "markdown-to-jsx": "^7.4.1",
-    "next": "14.1.0",
+    "markdown-to-jsx": "^7.4.7",
+    "nanoid": "^5.0.7",
+    "next": "14.2.2",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.1.0"
+    "eslint-config-next": "14.2.2",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5",
+    "sass": "^1.75.0",
+    "typescript": "^5"
   }
 }

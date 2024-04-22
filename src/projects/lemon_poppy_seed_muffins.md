@@ -1,8 +1,9 @@
 ---
-title: "Lemon Poppy Seed Muffins"
-prep_time: "15 minutes"
-cook_time: "20 minutes"
-description: "Classic, chewy cookies loaded with semi-sweet chocolate chips, perfect for dunking in milk."
+title: 'Lemon Poppy Seed Muffins'
+prep_time: '15 minutes'
+cook_time: '20 minutes'
+description: 'Classic, chewy cookies loaded with semi-sweet chocolate chips, perfect for dunking in milk.'
+img: '/next.svg'
 ---
 
 # Lemon Poppy Seed Muffins
