@@ -2,14 +2,12 @@
 const repoName = process.env.NEXT_PUBLIC_REPO_NAME || '';
 
 const basePath = repoName ? `/${repoName}` : '';
-const assetPrefix = repoName ? `/${repoName}/` : '';
 
 console.log("Base Path:", process.env.NEXT_PUBLIC_REPO_NAME);
 
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
-  basePath,
-  assetPrefix,
+  basePath: basePath,
   output: "export",
 }
 
