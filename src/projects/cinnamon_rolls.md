@@ -3,7 +3,7 @@ title: 'Cinnamon Rolls'
 prep_time: '30 minutes'
 cook_time: '25 minutes'
 description: 'Soft and gooey rolls filled with a sweet cinnamon-sugar mixture, topped with a creamy icing.'
-img: '/static-recipe-blog/next.svg'
+img: '/next.svg'
 ---
 
 # Cinnamon Rolls

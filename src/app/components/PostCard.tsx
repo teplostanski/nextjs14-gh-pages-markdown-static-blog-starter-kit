@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { PostMetadata } from '@/types'
+import { basePath } from '@/constants'
 
 export default function PostCard({ post }: PostMetadata) {
   return (
@@ -8,7 +9,7 @@ export default function PostCard({ post }: PostMetadata) {
       <div className='postCard'>
         <h3>{post.title}</h3>
         <Image
-          src={post.img}
+          src={`${basePath}${post.img}`}
           alt={post.title}
           width={100}
           height={50}
