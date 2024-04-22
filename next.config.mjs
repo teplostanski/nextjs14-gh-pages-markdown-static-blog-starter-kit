@@ -10,6 +10,7 @@ const nextConfig = {
   pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
   basePath,
   assetPrefix,
+  output: "export",
 }
 
 export default nextConfig;
