@@ -3,3 +3,4 @@ next-env.d.ts
 public
 node_modules
 .next
+next.config.mjs
