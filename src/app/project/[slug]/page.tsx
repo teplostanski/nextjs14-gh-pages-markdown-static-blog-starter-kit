@@ -1,6 +1,7 @@
-import { ProjectPageProps } from '@/types'
+import { ProjectPageProps, Slug } from '@/types'
 import MarkdownRender from '@/app/components/MarkdownRender/MarkdownRender'
 import { getPostContent } from '@/utils/getPostContent'
+import getPostMetadata from '@/utils/getPostMetadata'
 
 export async function generateMetadata({
   params,
@@ -12,6 +13,11 @@ export async function generateMetadata({
   return {
     title: `${id.replaceAll('_', ' ').toUpperCase()}Projects`,
   }
+}
+
+export async function generateStaticParams() {
+  const posts = getPostMetadata('src/projects')
+  return posts.map((post: { slug: Slug }) => ({ slug: post.slug }))
 }
 
 export default function projectPage({ params }: ProjectPageProps) {
