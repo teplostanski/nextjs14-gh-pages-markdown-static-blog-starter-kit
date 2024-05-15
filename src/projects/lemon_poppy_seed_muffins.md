@@ -2,7 +2,9 @@
 title: 'Lemon Poppy Seed Muffins'
 prep_time: '15 minutes'
 cook_time: '20 minutes'
-description: 'Classic, chewy cookies loaded with semi-sweet chocolate chips, perfect for dunking in milk.'
+description:
+  'Classic, chewy cookies loaded with semi-sweet chocolate chips, perfect for
+  dunking in milk.'
 img: '/media/next.svg'
 ---
 
@@ -23,18 +25,23 @@ img: '/media/next.svg'
 
 ## Instructions
 
-1. **Preheat oven** to 375°F (190°C). Line a muffin tin with paper liners or grease with non-stick spray.
+1. **Preheat oven** to 375°F (190°C). Line a muffin tin with paper liners or
+   grease with non-stick spray.
 
-2. **Whisk together** flour, sugar, poppy seeds, baking powder, and salt in a large bowl.
+2. **Whisk together** flour, sugar, poppy seeds, baking powder, and salt in a
+   large bowl.
 
 3. **In another bowl**, beat eggs, milk, oil, lemon zest, and lemon juice.
 
-4. **Pour** the wet ingredients into the dry ingredients and stir just until combined. Do not overmix.
+4. **Pour** the wet ingredients into the dry ingredients and stir just until
+   combined. Do not overmix.
 
 5. **Spoon** batter into prepared muffin tin, filling each cup about 2/3 full.
 
-6. **Bake** for 18-20 minutes or until a toothpick inserted into the center of a muffin comes out clean.
+6. **Bake** for 18-20 minutes or until a toothpick inserted into the center of a
+   muffin comes out clean.
 
-7. **Cool** in the pan for 5 minutes, then transfer to a wire rack to cool completely.
+7. **Cool** in the pan for 5 minutes, then transfer to a wire rack to cool
+   completely.
 
 Enjoy your fresh lemon poppy seed muffins!

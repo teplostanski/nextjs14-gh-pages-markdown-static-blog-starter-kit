@@ -15,7 +15,6 @@ export default function Preview({
   return (
     <>
       <SearchBar searchValue={searchValue} setSearchValue={setSearchValue} />
-      <p style={{ color: 'red' }}>test</p>
       <div className='postsContainer'>
         {postMetadata
           .filter((val: { title: string | string[] }) => {

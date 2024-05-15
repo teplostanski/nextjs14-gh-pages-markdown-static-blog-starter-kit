@@ -2,7 +2,9 @@
 title: 'Blueberry Scones'
 prep_time: '15 minutes'
 cook_time: '20 minutes'
-description: 'Tender, buttery scones bursting with fresh blueberries, perfect for a morning treat.'
+description:
+  'Tender, buttery scones bursting with fresh blueberries, perfect for a morning
+  treat.'
 img: '/media/next.svg'
 ---
 
@@ -26,15 +28,19 @@ img: '/media/next.svg'
 
 2. **Whisk together** flour, sugar, baking powder, and salt in a large bowl.
 
-3. **Cut in** the butter using a pastry cutter or your fingers until the mixture resembles coarse crumbs.
+3. **Cut in** the butter using a pastry cutter or your fingers until the mixture
+   resembles coarse crumbs.
 
 4. **Whisk together** heavy cream, egg, and vanilla extract in a small bowl.
 
-5. **Add** the wet ingredients to the dry ingredients and stir just until combined. Gently fold in the blueberries.
+5. **Add** the wet ingredients to the dry ingredients and stir just until
+   combined. Gently fold in the blueberries.
 
-6. **Turn out** the dough onto a lightly floured surface and knead gently a few times. Pat the dough into a round disc, about 1 inch thick.
+6. **Turn out** the dough onto a lightly floured surface and knead gently a few
+   times. Pat the dough into a round disc, about 1 inch thick.
 
-7. **Cut** the disc into 8 wedges and place them on the prepared baking sheet, spacing them apart.
+7. **Cut** the disc into 8 wedges and place them on the prepared baking sheet,
+   spacing them apart.
 
 8. **Brush** the tops of the scones with a little extra cream.
 

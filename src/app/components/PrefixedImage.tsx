@@ -11,11 +11,15 @@ export const PrefixedImage = ({ src, alt }: PrefixedImageProps) => {
 
   return (
     <Image
-      style={{ border: '1px solid red' }}
       src={imagePath}
       alt={alt}
-      width={700}
-      height={100}
+      sizes='100vw'
+      style={{
+        width: '80%',
+        height: 'auto',
+      }}
+      width={500}
+      height={300}
     />
   )
 }

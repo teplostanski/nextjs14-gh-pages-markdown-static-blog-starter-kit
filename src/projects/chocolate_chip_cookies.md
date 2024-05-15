@@ -2,7 +2,9 @@
 title: 'Chocolate Chip Cookies'
 prep_time: '15 minutes'
 cook_time: '10 minutes'
-description: 'Classic, chewy cookies loaded with semi-sweet chocolate chips, perfect for dunking in milk.'
+description:
+  'Classic, chewy cookies loaded with semi-sweet chocolate chips, perfect for
+  dunking in milk.'
 img: '/media/next.svg'
 ---
 
@@ -24,14 +26,18 @@ img: '/media/next.svg'
 
 1. **Preheat oven** to 375°F (190°C).
 
-2. **Cream together** the butter, granulated sugar, brown sugar, and vanilla extract in a large mixing bowl until creamy. Add eggs, one at a time, beating well after each addition.
+2. **Cream together** the butter, granulated sugar, brown sugar, and vanilla
+   extract in a large mixing bowl until creamy. Add eggs, one at a time, beating
+   well after each addition.
 
-3. **Combine** flour, baking soda, and salt in a small bowl. Gradually beat the flour mixture into the butter mixture.
+3. **Combine** flour, baking soda, and salt in a small bowl. Gradually beat the
+   flour mixture into the butter mixture.
 
 4. **Stir in** the chocolate chips.
 
 5. **Drop** by rounded tablespoon onto ungreased baking sheets.
 
-6. **Bake** for 9 to 11 minutes or until golden brown. Cool on baking sheets for 2 minutes; remove to wire racks to cool completely.
+6. **Bake** for 9 to 11 minutes or until golden brown. Cool on baking sheets for
+   2 minutes; remove to wire racks to cool completely.
 
 Enjoy your delicious homemade chocolate chip cookies!

@@ -11,8 +11,14 @@ export default function PostCard({ post }: PostMetadata) {
         <Image
           src={`${basePath}${post.img}`}
           alt={post.title}
-          width={100}
-          height={50}
+          sizes='(max-width: 750px)'
+          style={{
+            width: '100%',
+            height: '60%',
+            objectFit: 'cover',
+          }}
+          width={500}
+          height={300}
           priority={true}
         />
 

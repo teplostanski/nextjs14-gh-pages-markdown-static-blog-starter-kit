@@ -4,7 +4,7 @@ import { PrefixedImage } from '@/app/components/PrefixedImage'
 import { ChildrenProps } from '@/types'
 
 const MarkdownTitle = ({ children }: ChildrenProps) => {
-  return <h1>title {children}</h1>
+  return <h1>{children}</h1>
 }
 
 const MarkdownArticle = ({ children }: ChildrenProps) => (
