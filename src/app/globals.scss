@@ -74,19 +74,10 @@ main {
   gap: 14px;
 }
 
-.unstyled {
-  color: inherit;
-  text-decoration: none;
-}
-
 article div {
   display: flex;
   flex-direction: column;
   gap: 14px;
-}
-
-article div ul {
-  list-style-position: inside;
 }
 
 footer {

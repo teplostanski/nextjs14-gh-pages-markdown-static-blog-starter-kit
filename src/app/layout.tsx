@@ -2,7 +2,9 @@ import { Inter } from 'next/font/google'
 import './globals.scss'
 import Link from 'next/link'
 import { ReactNode } from 'react'
-import ClientNav from './components/LayoutNav'
+import LayoutNav from './components/LayoutNav/LayoutNav'
+
+import styles from './layout.module.scss'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -13,11 +15,11 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   let header = (
-    <header>
+    <header className={styles.header}>
       <Link href={'/'}>
         <h1>The kitchen of World of Warcraft</h1>
       </Link>
-      <ClientNav />
+      <LayoutNav />
     </header>
   )
 
@@ -26,7 +28,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <p>
         Create with ❤️{' '}
         <a href='https://github.com/teplostanski/nextjs14-gh-pages-static-blog-template'>
-          nextjs14-gh-pages-static-blog-template
+          nextjs14-gh-pages-markdown-static-blog-template
         </a>
       </p>
     </footer>

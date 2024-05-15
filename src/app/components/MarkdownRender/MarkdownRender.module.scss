@@ -1,0 +1,21 @@
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  
+  & img {
+    display: block;
+    margin: 20px auto;
+  }
+}
+
+.subtitle {
+  font-size: 1.2rem;
+}
+
+.list {
+  margin-left: 20px;
+  &::marker {
+    color: gray;
+  }
+}

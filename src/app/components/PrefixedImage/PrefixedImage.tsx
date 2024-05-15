@@ -1,25 +1,24 @@
 import Image from 'next/image'
 import getConfig from 'next/config'
 import { PrefixedImageProps } from '@/types'
+import styles from './PrefixedImage.module.scss'
 
 export const PrefixedImage = ({ src, alt }: PrefixedImageProps) => {
   const { publicRuntimeConfig } = getConfig()
-  console.log('Runtime Config:', publicRuntimeConfig) // Добавьте этот лог для проверки
+  console.log('Runtime Config:', publicRuntimeConfig)
 
-  const basePath = publicRuntimeConfig.basePath || '' // Установите пустую строку по умолчанию
+  const basePath = publicRuntimeConfig.basePath || ''
   const imagePath = `${basePath}${src.startsWith('/') ? '' : '/'}${src}`
 
   return (
     <Image
+      className={styles.img}
       src={imagePath}
       alt={alt}
       sizes='100vw'
-      style={{
-        width: '80%',
-        height: 'auto',
-      }}
-      width={500}
-      height={300}
+      width={500} // Задайте обязательные свойства width и height
+      height={300} // Они будут изменены через CSS
+      priority
     />
   )
 }

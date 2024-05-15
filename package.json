@@ -1,5 +1,5 @@
 {
-  "name": "nextjs14-gh-pages-static-blog-template",
+  "name": "nextjs14-gh-pages-markdown-static-blog-template",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -11,12 +11,17 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.17",
     "gray-matter": "^4.0.3",
     "markdown-to-jsx": "^7.4.7",
     "nanoid": "^5.0.7",
+    "nche": "^1.1.2",
     "next": "14.2.2",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "vite-plugin-pretty-module-classnames": "^1.2.0"
   },
   "devDependencies": {
     "@types/node": "^20",
