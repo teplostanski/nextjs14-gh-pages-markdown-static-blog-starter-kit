@@ -5,7 +5,7 @@ import { basePath } from '@/constants'
 
 export default function PostCard({ post }: PostMetadata) {
   return (
-    <Link className='unstyled' href={`/project/${post.slug}`}>
+    <Link className='unstyled' href={`/articles/${post.slug}`}>
       <div className='postCard'>
         <h3>{post.title}</h3>
         <Image

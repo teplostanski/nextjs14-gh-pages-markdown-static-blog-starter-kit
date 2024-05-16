@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'The kitchen of World of Warcraft',
-  description: 'My amazing project app',
+  description: 'My amazing article app',
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {

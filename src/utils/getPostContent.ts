@@ -3,7 +3,7 @@ import fs from 'fs'
 import matter from 'gray-matter'
 
 export function getPostContent(slug: Slug) {
-  const folder = 'src/projects/'
+  const folder = 'src/articles/'
   const file = folder + `${slug}.md`
   const content = fs.readFileSync(file, 'utf8')
 

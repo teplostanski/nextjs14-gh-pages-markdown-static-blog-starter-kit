@@ -1,4 +1,4 @@
-import { ProjectPageProps, Slug } from '@/types'
+import { ArticlePageProps, Slug } from '@/types'
 import MarkdownRender from '@/app/components/MarkdownRender/MarkdownRender'
 import { getPostContent } from '@/utils/getPostContent'
 import getPostMetadata from '@/utils/getPostMetadata'
@@ -11,16 +11,16 @@ export async function generateMetadata({
   const id = params?.slug ? params?.slug + ' ⋅ ' : ''
 
   return {
-    title: `${id.replaceAll('_', ' ').toUpperCase()}Projects`,
+    title: `${id.replaceAll('_', ' ').toUpperCase()}articles`,
   }
 }
 
 export async function generateStaticParams() {
-  const posts = getPostMetadata('src/projects')
+  const posts = getPostMetadata('src/articles')
   return posts.map((post: { slug: Slug }) => ({ slug: post.slug }))
 }
 
-export default function projectPage({ params }: ProjectPageProps) {
+export default function articlePage({ params }: ArticlePageProps) {
   const slug = params.slug
   const { content } = getPostContent(slug)
   return (
