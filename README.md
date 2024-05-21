@@ -1,4 +1,4 @@
-Template web application on `Next.js 14` with Static Site Generation (`SSG`) from `markdown` files configured for deployment on `GitHub Pages`.
+Starter kit on `Next.js 14` with Static Site Generation (`SSG`) from `markdown` files configured for deployment on `GitHub Pages`.
 
 A potential error in the browser console is nothing to worry about:
 
