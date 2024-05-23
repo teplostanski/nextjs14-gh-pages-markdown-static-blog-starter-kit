@@ -1,5 +1,9 @@
 Starter kit for `Next.js 14` with Static Site Generation (`SSG`) from `markdown` files, configured for deployment on `GitHub Pages`.
+
 This setup functions as a `headless CMS based on Git`, providing a seamless workflow for content management.
+
+Without tailwind
+Without MDX
 
 A potential error in the browser console is nothing to worry about:
 
